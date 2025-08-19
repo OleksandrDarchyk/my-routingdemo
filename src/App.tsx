@@ -1,6 +1,7 @@
 import Hello from "./Hello.tsx";
 import './App.css'
 import {Counter} from "./Counter.tsx";
+import NameInput from "./NameInput.tsx";
 
 function App() {
 
@@ -11,6 +12,8 @@ function App() {
         <Hello name="Oleksandr this is your props" />
         <Counter>
         </Counter>
+      <NameInput
+      ></NameInput>
     </>
   )
 }
