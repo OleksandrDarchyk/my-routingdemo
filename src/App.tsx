@@ -2,6 +2,7 @@ import Hello from "./Hello.tsx";
 import './App.css'
 import {Counter} from "./Counter.tsx";
 import NameInput from "./NameInput.tsx";
+import Book from "./Book.tsx";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         </Counter>
       <NameInput
       ></NameInput>
+        <Book></Book>
     </>
   )
 }
